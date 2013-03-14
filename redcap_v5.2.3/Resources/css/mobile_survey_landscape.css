@@ -1,0 +1,45 @@
+body {
+	width: 480px;
+	background: #FFFFFF;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+	-webkit-text-size-adjust: none;
+}
+img, table#form_table {
+	max-width: 480px;
+} 
+textarea.notesbox {
+	height: 50px;
+	width: 90%;
+	max-width: 90%;
+	font-size: 12px;
+}
+select {
+	width: 100px;
+}
+input[type="text"] {
+	width: 90px;
+	font-size:12px;
+}
+div#container { margin: 10px 0 0; padding: 0 }
+div#outer { margin: 0; padding: 0; max-width: 480px; }
+#surveyinstr, #surveytitle, #surveypagenum { max-width: 480px; padding: 0 5px; }	
+.sldrtd, .slider {
+	width: 375px;
+}
+.sldrmsg {
+	text-align: left;
+	padding-left: 25px;
+}
+table.sldrlbl { width: 420px; }
+input[type="text"].sldrnum { width: 20px; }
+div#return_corner { left: 5px; }
+div.frmrd { max-width:100px; }
+td.header { font-size: 12px; }
+td.data, td.label, td.header { padding: 8px 5px; }
+div#footer { display:none; }
+.note { width: 100%; max-width: 100%; }
+	
