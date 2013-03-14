@@ -252,6 +252,10 @@ class HtmlPage
 		
 		// Initialize windows-resize and other basic javascript
 		?><script type="text/javascript">$(function(){ initHomePage(); }); </script><?php
+		//print '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>';  //todd: For heh customization. This has been commented out.  Christa wanted to include it, but it breaks the submit errors popup. So I commented it out and left this as a reminder.
+		//todd: For heh customization: added the next following javascript files to enable popover tips on survey.
+		print '<script type="text/javascript" src="' . APP_PATH_JS . 'bootstrap.min.js"></script>'. "\n";
+		print '<script type="text/javascript" src="' . APP_PATH_JS . 'bootstrap-popover.js"></script>'. "\n";
 		
 		print '</body></html>';
         
