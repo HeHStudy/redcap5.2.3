@@ -927,8 +927,10 @@ $(function() {
 			<?php echo $title_logo ?>
 		</td>
 		<td valign="top" id="changeFont" style="padding-top:7px;text-align:right;width:75px;position:relative;color:#666;font-family:tahoma;font-size:11px;">
+		  <!-- todd customized for HEH. Hide font resize
 			<span style="white-space:nowrap;"><?php echo $lang['survey_218'] ?></span><br/>
 			<span style="white-space:nowrap;"><a href="javascript:;" class="increaseFont"><img src="<?php echo APP_PATH_IMAGES ?>font_add.png" class="imgfix"></a>&nbsp;&nbsp;|&nbsp;<a href="javascript:;" class="decreaseFont"><img src="<?php echo APP_PATH_IMAGES ?>font_delete.png" class="imgfix"></a></span>
+			 -->
 		</td>
 		<?php 			
 		//Give note at top for public surveys if user is returning
