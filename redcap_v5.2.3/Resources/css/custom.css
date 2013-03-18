@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('fonts/museo_slab_500-webfont-webfont.eot');
+    src: url('fonts/museo_slab_500-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/museo_slab_500-webfont-webfont.woff') format('woff'),
+         url('fonts/museo_slab_500-webfont-webfont.ttf') format('truetype'),
+         url('fonts/museo_slab_500-webfont-webfont.svg#museo_slab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_ltlight';
+    src: url('fonts/proximanova-light-webfont.eot');
+    src: url('fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-light-webfont.woff') format('woff'),
+         url('fonts/proximanova-light-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-light-webfont.svg#proxima_nova_ltlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novabold';
+    src: url('fonts/proxima_nova_bold-webfont.eot');
+    src: url('fonts/proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proxima_nova_bold-webfont.woff') format('woff'),
+         url('fonts/proxima_nova_bold-webfont.ttf') format('truetype'),
+         url('fonts/proxima_nova_bold-webfont.svg#proxima_novabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('fonts/proximanova-reg-webfont-webfont.eot');
+    src: url('fonts/proximanova-reg-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-reg-webfont-webfont.woff') format('woff'),
+         url('fonts/proximanova-reg-webfont-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-reg-webfont-webfont.svg#proxima_novaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 1010px),(min-device-width: 846px) and (max-device-width: 1024px)  {
+		td.label.quesnum {display:none !important;}
+		form#form > div > table > tbody > tr > td { width:720px !important;}
+		form#form > div > table > tbody > tr > td > div { width:720px !important; }
+		td.label {width:720px !important; margin:0!important; padding:0!important; float:none!important; }
+		table#form_table{max-width:720px !important;}
+		tbody.formtbody{max-width:720px !important; }
+		table.form_border { width:720px !important; }
+		tr{max-width:720px !important; width:720px !important;}
+		tr#education_grade-tr {width:720px !important;}
+		.x-form-text{max-width:720px !important;  }
+		.x-form-field{max-width:720px !important; }
+		select {max-width:720px!important;}
+		}
+		
+		/* iPads */
+@media only screen and (min-device-width: 650px) and (max-device-width: 846px) {
+		td.label.quesnum {display:none !important;}
+		form#form > div > table > tbody > tr > td { width:500px !important; }
+		form#form > div > table > tbody > tr > td > div { width:500px !important; }
+		td.label {width:500px !important; margin:0!important; padding:0!important; float:none!important; }
+		table#form_table{max-width:500px !important;}
+		tbody.formtbody{max-width:500px !important;}
+		table.form_border { width:500px !important; }
+		tr{max-width:500px !important; width:500px !important; }
+		tr#education_grade-tr {width:500px !important;}
+		.x-form-text{max-width:500px !important; }
+		.x-form-field{max-width:500px !important;}
+		select {max-width:500px!important;}
+	}
+	
+	/* Smartphones */
+	 @media only screen
+	and (min-device-width : 300px)
+	and (max-device-width : 480px) {
+		body { 
+			padding: 0; 
+			margin: 0 -10px 0 0; 
+			width: 300px; }
+		form#form > div > table > tbody > tr > td { width:300px !important; }
+		form#form > div > table > tbody > tr > td > div { width:300px !important; }
+		div#outer{max-width:280px !important; width:280px !important;}
+		td.label.quesnum {display:none !important;}
+		td.label {width:300px !important; margin:0 -25px 0 0!important; padding:0!important; float:none!important;}
+		table#form_table{max-width:300px;}
+		tbody.formtbody{max-width:300px;}
+		table.form_border { width:300px !important; }
+		tr{max-width:300px !important; width:300px !important;}
+		tr#education_grade-tr {width:300px !important;}
+		.x-form-text{max-width:300px !important; }
+		.x-form-field{max-width:300px !important; }
+		select {max-width:300px!important;}
+		td#changeFont {display:none;}
+		.popover{max-width:200px !important;}
+
+		} 	
+
+@media only screen and (max-width: 1010px) {
+body form#form > div { width: auto !important; }
+body table, body #form_table { width: 100% !important; overflow: hidden; }
+body form#form tbody { width: 100% !important; }
+body form#form td+.label { max-width: auto !important; padding: 10px 0 !important; }
+body form#form tr, body form#form td.label { width: 95% !important; padding: 10px 0; }
+form#form > div > table > tbody > tr > td { float: left !important; width: auto !important; }
+body .space { width: auto !important; }
+body select, body button { max-width: auto; }
+form#form td+td.label * { width: auto !important; max-width: 100% !important; }
+	form#form td+td.label select { width: 80% !important; }
+body .frmrd0 { border: none !important; }
+body .jqbutton, body .jqbutton span { width: 100% !important; max-width: 100% !important; padding: 0 !important; }
+/*body a.cclink { clear:both !important; float:left !important; height:20px !important; overflow:visible !important; padding:9px 15px!important; }*/
+body a.cclink { display:none!important;}
+.tt{clear:both !important; float:none !important; margin-left:9px !important; }
+.jqbutton{ background:url(../images/submit2.jpg) top center no-repeat !important; margin-left:0;!important; padding-left:0!important;;}
+td#changeFont {display:none;}
+#container{padding: 5px 5px 0 15px !important;}
+.checkbox, .radio {padding: 0 30px 0 0 !important;}
+td.label.quesnum {display:none !important;}
+
+}
+
+.tt{border:none; width:27px; overflow:hidden;}
+
+.popover{ width:auto; max-width:425px; margin-right: 20px;}
+
+#valtext_divs, #valregex_divs { display:none; }
+
+a#pops:link, a#pops:visited, a#pops:active, a#pops:hover { text-decoration: none; }  
