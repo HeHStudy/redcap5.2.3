@@ -56,7 +56,7 @@ if (isset($_GET['__passthru']) && !empty($_GET['__passthru']))
 
 // Class for html page display system
 $objHtmlPage = new HtmlPage();
-$objHtmlPage->addStylesheet("bootstrap.css", 'screen,print'); /todd: Added for heh customization to enable Christa's popover tip
+$objHtmlPage->addStylesheet("bootstrap.css", 'screen,print'); //todd: Added for heh customization to enable Christa's popover tip
 $objHtmlPage->addStylesheet("smoothness/jquery-ui-".JQUERYUI_VERSION.".custom.css", 'screen,print');
 $objHtmlPage->addStylesheet("style.css", 'screen,print');
 $objHtmlPage->addStylesheet("style_heh.css", 'screen,print');  //todd: Added to override default style.css for heh customizations
