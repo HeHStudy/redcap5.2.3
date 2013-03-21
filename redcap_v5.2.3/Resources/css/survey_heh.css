@@ -1,0 +1,152 @@
+body {
+	background: #E2E1E3 url("../images/header.jpg") top center no-repeat;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0; 
+    padding: 100px 0 0 0;
+    text-align: center;
+	overflow: auto;
+}
+div#outer {
+    margin: 0 auto;
+    padding: 30px 20px 10px;
+    text-align: left;
+    width: 900px;
+	max-width:90%;
+	background: #fff /*url("../images/bg_gray.png") repeat-x left top*/;
+	border: none;
+	 -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+div#container{
+	margin: 0 0 0 0;
+    padding: 5px 15px 0px 15px;
+    text-align: left;
+	max-width:100%;
+}
+#footer {
+    color: #888;
+    font-family: Arial, Helvetica, Century Gothic, sans-serif; 
+    font-size: 11px; 
+    text-align:center;
+    margin: 0;
+    padding:15px 0 5px;
+} 
+#footer a {
+    color: #9f9f9f;
+    font-family: Arial, Helvetica, Century Gothic, sans-serif; 
+    font-size: 11px; 
+    font-weight: bold; 
+}
+#footer a:link {
+    color: #9f9f9f; 
+    text-decoration: none;
+}
+#footer a:visited {
+    color: #9f9f9f; 
+    text-decoration: none;
+}
+#footer a:hover {
+    color: #9f9f9f; 
+    text-decoration: underline;
+}
+#header {
+    margin-left: 50px;
+    margin-right: 37px;
+    position: relative;
+    text-align: left;
+    width: 791px;
+    z-index: 1;
+}
+#pagecontent {
+    margin-top: -14px;
+    margin-bottom: 0px;
+	max-width:100%;
+}
+#pagecontent table{
+	clear: both;
+}
+
+table, #form_table{
+	clear: both;
+	max-width: 100%;
+	width:840px !important;
+}
+
+/*tbody, tbody.formtbody {max-width:100% !important; width:900px;}*/
+
+div.surveytitle { max-width:800px;font-family: "proxima_novabold", Arial, Helvetica, sans-serif;font-size: 38px;font-weight: normal;margin:10px 0;text-align:left; color:#424242;}
+
+td.header {
+	background:url("../images/instruction_bg.png") repeat-x scroll 0 0 #BCCFE8;
+	color:#000000;
+	font-size:13px;
+	font-weight:bold;
+	padding:8px;
+}
+td.data, td.label, td.label_matrix, td.data_matrix {
+	padding:15px 10px; 
+	border-bottom:1px solid #E2E1E3;
+	vertical-align:top;
+	font-weight: bold;
+	background: #fff;
+}
+td.data { width: 310px; }
+td.label { width:840px; max-width:100%; }
+td.label.quesnum { width:30px !important; display: none; }
+.label a:link, .label a:visited, .label a:active, .label a:hover { font-family: Arial; }
+td.label_matrix { 
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+td.data_matrix { 
+	vertical-align:middle;
+}
+
+table.form_border { border:none; width:870px !important; }
+.viewEq { display: none; }
+.calcDisc { display: none; }
+.submitBtn { background: red; }
+
+a:link, a:visited, a:active, a:hover{ font-family: Arial; font-size: 12px; color: #000066; text-decoration: none; text-align:left; }
+a:hover{ color: red; }
+p { line-height: 1.5em; }
+.hang a:link, .hang a:visited, .hang a:active, .hang a:hover{ text-decoration: none; }
+.hang2 a:link, .hang2 a:visited, .hang2 a:active, .hang2 a:hover{ text-decoration: none; }
+.x-panel-header { text-align: left; }
+.sendit-lnk { display: none; }
+.hide { display: none; }
+
+/* Bubble pop-up on survey page */
+.popup {
+	position: absolute;
+	display: none;
+	z-index: 50;
+	border-collapse: collapse;
+}
+.popup table.popup-contents {
+	font-size: 12px;
+	line-height: 1.4em;
+	background-color: #fff;
+	color: #666;
+	border: 1px solid #888;
+}
+div#return_corner{
+	text-align:right;
+	position:relative;
+	top:0px;
+	left:15px;
+	padding:6px 7px 7px 0px;
+	border-left:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+}
+#stopActionPrompt, #stopActionReturn { display: none; text-align: left; font-size: 13px; margin: 10px 0; }
+#surveypagenum { color:#66ccff;font-weight:bold;text-align:right;margin:0 0 5px }
+#surveyinstr { padding:0 0 25px; }
+#surveyinstr div, #surveyinstr p { margin:0; font-family:"proxima_novaregular", Arial, Helvetica, sans-serif; color:#424242; font-size:18px; line-height:26px; }
+td.quesnum { padding-right:3px;padding-left:7px; }
+td.quesnummtxchk { padding-right:3px;padding-left:7px;padding-top:4px; }
+
+body a.cclink { display:none!important;}
