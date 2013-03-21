@@ -62,6 +62,7 @@ $objHtmlPage->addStylesheet("style.css", 'screen,print');
 $objHtmlPage->addStylesheet("style_heh.css", 'screen,print');  //todd: Added to override default style.css for heh customizations
 $objHtmlPage->addStylesheet("survey.css", 'screen,print');
 $objHtmlPage->addStylesheet("survey_heh.css", 'screen,print'); //todd: Added to override default survey.css for heh customizations
+$objHtmlPage->addStylesheet("custom.css", 'screen,print'); //christa: Added for heh customizations
 $objHtmlPage->addExternalJS(APP_PATH_JS . "base.js");
 $objHtmlPage->addExternalJS(APP_PATH_JS . "fontsize.js");
 $objHtmlPage->addExternalJS(APP_PATH_JS . "customize_yahoo_mediaplayer.js");  //todd: Added for heh customization. This must come before the main mediaplayer include. Adds customizations to the yahoo media player. audio which is used in the palptiations survey and maybe others.
