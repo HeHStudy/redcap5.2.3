@@ -49,14 +49,13 @@
 		td.label.quesnum {display:none !important;}
 		form#form > div > table > tbody > tr > td { width:720px !important;}
 		form#form > div > table > tbody > tr > td > div { width:720px !important; }
-		td.label {width:720px !important; margin:0!important; padding:0!important; float:none!important; }
-		table#form_table{max-width:720px !important;}
-		tbody.formtbody{max-width:720px !important; }
-		table.form_border { width:720px !important; }
-		tr{max-width:720px !important; width:720px !important;}
-		tr#education_grade-tr {width:720px !important;}
-		.x-form-text{max-width:720px !important;  }
-		.x-form-field{max-width:720px !important; }
+		table#form_table{max-width:840px !important;}
+		tbody.formtbody{max-width:840px !important; }
+		table.form_border { width:840px !important; }
+		tr{max-width:840px !important; width:840px !important;}
+		tr#education_grade-tr {width:840px !important;}
+		.x-form-text{max-width:840px !important;  }
+		.x-form-field{max-width:840px !important; }
 		select {max-width:720px!important;}
 		}
 		
@@ -65,15 +64,17 @@
 		td.label.quesnum {display:none !important;}
 		form#form > div > table > tbody > tr > td { width:500px !important; }
 		form#form > div > table > tbody > tr > td > div { width:500px !important; }
-		td.label {width:500px !important; margin:0!important; padding:0!important; float:none!important; }
-		table#form_table{max-width:500px !important;}
-		tbody.formtbody{max-width:500px !important;}
-		table.form_border { width:500px !important; }
-		tr{max-width:500px !important; width:500px !important; }
-		tr#education_grade-tr {width:500px !important;}
-		.x-form-text{max-width:500px !important; }
-		.x-form-field{max-width:500px !important;}
-		select {max-width:500px!important;}
+		/*td.label {width:500px !important; margin:0!important; padding:0!important; float:none!important; }*/
+		table#form_table{max-width:600px !important;}
+		tbody.formtbody{max-width:600px !important;}
+		table.form_border { width:600px !important; }
+		tr{max-width:600px !important; width:600px !important; }
+		tr#education_grade-tr {width:600px !important;}
+		.x-form-text{max-width:600px !important; }
+		.x-form-field{max-width:600px !important;}
+		select {max-width:600px!important;}
+		td.label {width:900px !important; margin:0!important; padding:0!important; float:none!important; }
+
 	}
 	
 	/* Smartphones */
@@ -94,12 +95,11 @@
 		table.form_border { width:300px !important; }
 		tr{max-width:300px !important; width:300px !important;}
 		tr#education_grade-tr {width:300px !important;}
-		.x-form-text{max-width:300px !important; }
-		.x-form-field{max-width:300px !important; }
+		.x-form-text{max-width:310px !important; }
+		.x-form-field{max-width:310px !important; }
 		select {max-width:300px!important;}
 		td#changeFont {display:none;}
 		.popover{max-width:200px !important;}
-
 		} 	
 
 @media only screen and (max-width: 1010px) {
@@ -111,20 +111,23 @@ body form#form tr, body form#form td.label { width: 95% !important; padding: 10p
 form#form > div > table > tbody > tr > td { float: left !important; width: auto !important; }
 body .space { width: auto !important; }
 body select, body button { max-width: auto; }
-form#form td+td.label * { width: auto !important; max-width: 100% !important; }
-	form#form td+td.label select { width: 80% !important; }
+form#form td+td.label * { width: auto !important; max-width: 94% !important;}
+form#form td+td.label select { width: 55px !important; }
 body .frmrd0 { border: none !important; }
-body .jqbutton, body .jqbutton span { width: 100% !important; max-width: 100% !important; padding: 0 !important; }
-/*body a.cclink { clear:both !important; float:left !important; height:20px !important; overflow:visible !important; padding:9px 15px!important; }*/
 body a.cclink { display:none!important;}
 .tt{clear:both !important; float:none !important; margin-left:9px !important; }
-.jqbutton{ background:url(../images/submit2.jpg) top center no-repeat !important; margin-left:0;!important; padding-left:0!important;;}
 td#changeFont {display:none;}
 #container{padding: 5px 5px 0 15px !important;}
 .checkbox, .radio {padding: 0 30px 0 0 !important;}
 td.label.quesnum {display:none !important;}
-
+input[type="radio"], input[type="checkbox"] {width:2em!important;height:2em!important;}
+/*.jqbutton{ background:url(../images/submit2.jpg) top center no-repeat !important; margin-left:0;!important; padding-left:0!important;}*/
+/*body .jqbutton, body .jqbutton span { width: 100% !important; max-width: 100% !important; padding: 0 !important; }*/
+/*body a.cclink { clear:both !important; float:left !important; height:20px !important; overflow:visible !important; padding:9px 15px!important; }*/
 }
+
+
+td#changeFont {display:none;}
 
 .tt{border:none; width:27px; overflow:hidden;}
 
