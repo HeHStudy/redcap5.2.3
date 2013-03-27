@@ -757,13 +757,15 @@ button, input, textarea, select {
 
 input[type="button"], input[type="submit"], button {padding:0 4px; }
 input[type="radio"], input[type="checkbox"] {
-	margin: 2px 0.4ex;
+	margin: 3px 0.4ex 0 0.4ex;
+	width:2em!important;
+	height:2em!important;
     -khtml-user-select: element;
 }
 img { border-width: 0px; }
 textarea { font-family: Arial; font-size:10px }
 
-p { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px;text-align:left; margin: 10px 0 10px 0; line-height:1.4em; max-width: 700px;}
+p { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px;text-align:left; margin: 10px 0 10px 0; line-height:1.4em; max-width: 950px;}
 ol { font-size: 13px ; text-align:left; }
 li { font-size: 13px ; text-align:left; }
 h3 { font-size: 16px; text-align:left; margin: 10px 0 10px 0;}
@@ -2050,7 +2052,24 @@ a.plist:link, a.plist:visited, a.plist:active, a.plist:hover{ color:#888;font-si
 
 #groupid-div { text-align: right;color:#444;line-height:1.5em; }
 /*.jqbutton {background:url(../images/submit.jpg) top center no-repeat; width:423px !important; height:174px !important; color:#FFF !important; font-size:12px !important; padding:0 !important; margin:40px 0 -100px 0 !important; overflow:hidden !important; border:none !important; cursor:pointer;}*/
-.jqbutton { color: #333;font-family: Verdana, Arial, sans-serif;font-size:13px;padding: 1px 5px !important; border: solid 1px #aaa; border-right: solid 1px #888; border-bottom: solid 1px #888; color:#333; }
+.jqbutton{
+	display: block;
+	border-radius: 50px;
+	font-family: "proxima_nova_ltlight", Helvetica, Arial, sans-serif;
+ 	background: #EE2B64;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EE2B64), to(#A3173F)); 
+	background-image: -webkit-linear-gradient(top, #EE2B64, #A3173F);
+	background-image: -moz-linear-gradient(top, #EE2B64, #A3173F); 
+	background-image: -ms-linear-gradient(top, #EE2B64, #A3173F); 
+	overflow: hidden;
+	border: 8px solid #DDD;
+	margin: 0 auto !important;
+	cursor:pointer;
+	color:#fff!important;
+	font-size:18px!important;
+	padding: 5px 25px!important;
+	margin-top: 15px!important;}
+/*.jqbutton { color: #333;font-family: Verdana, Arial, sans-serif;font-size:13px;padding: 1px 5px !important; border: solid 1px #aaa; border-right: solid 1px #888; border-bottom: solid 1px #888; color:#333; }*/
 .jqbuttonmed { color: #333;font-family: Verdana, Arial, sans-serif;font-size:13px;font-size:12px; font-family:arial,tahoma; padding: 1px 5px !important; border: solid 1px #aaa; border-right: solid 1px #888; border-bottom: solid 1px #888; color:#333; }
 .jqbuttonsm { color: #333;font-family: Verdana, Arial, sans-serif;font-size:13px;font-size:9px; font-family:tahoma; padding: 1px 5px !important; border: solid 1px #aaa; border-right: solid 1px #888; border-bottom: solid 1px #888; color:#333; }
 .gearsm { width:9px;height:9px;background: url(../images/gear_small2.png) no-repeat left; }
