@@ -5,10 +5,10 @@
 // Replace the values inside the single quotes below with the values for your MySQL configuration. 
 // If not using the default port 3306, then append a colon and port number to the hostname (e.g. $hostname = 'example.com:3307';).
 
-$hostname 	= '127.0.0.1';
+$hostname 	= 'localhost';
 $db 		= 'redcap';
 $username 	= 'redcap';
-$password 	= 'redcap';
+$password 	= getenv('REDCAP_DB_PASSWORD');
 
 // For greater security, you may instead want to place the database connection values in a separate file that is not 
 // accessible via the web. To do this, uncomment the line below and set it as the path to your database connection file
