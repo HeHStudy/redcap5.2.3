@@ -1836,8 +1836,9 @@ table.metachanges td { padding:2px 3px; }
 .x-form-field{
     margin: 5px 0 10px 0;
     font-family: font-family:"proxima_novaregular", Arial, Helvetica, sans-serif;
-	font-size: 18px;
-	color:#424242;	
+	font-size: 15px;
+	color:#424242;
+	width:90px!important;
 }
 
 .x-form-field select {background: url(../images/arrow.png) no-repeat right #ddd;}
