@@ -94,7 +94,7 @@ td.data, td.label, td.label_matrix, td.data_matrix {
 	background: #fff;
 }
 td.data { width: 310px; }
-td.label { width:840px; max-width:100%; }
+td.label { width:840px; max-width:100%; width: 100% !important; }
 td.label.quesnum { width:30px !important; display: none; }
 .label a:link, .label a:visited, .label a:active, .label a:hover { font-family: Arial; }
 td.label_matrix { 

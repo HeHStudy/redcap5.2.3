@@ -2354,3 +2354,5 @@ table.mtxchoicetable td.data_mtxchoice input[type="radio"], table.mtxchoicetable
 .randomizationDuplLabel { display:none; }
 
 #changeFont span {font-size:14px!important; font-family:Verdana, Arial, Geneva, sans-serif; color:#424242;}
+
+td.label img{width:auto!important;}
