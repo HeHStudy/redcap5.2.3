@@ -136,3 +136,33 @@ td#changeFont {display:none;}
 #valtext_divs, #valregex_divs { display:none; }
 
 a#pops:link, a#pops:visited, a#pops:active, a#pops:hover { text-decoration: none; }  
+
+.popover-content {
+	padding: 11px 14px;
+	font-size: 14px;
+	text-align: left;}
+
+h3.popover-title {
+    font-size: 15px;
+    font-weight: bold;
+    border: medium none;
+    position: relative;
+    margin-top: 5px;
+    padding: 1px 0px 4px;
+    display: inline-block;
+    width: 90%;}
+
+button.close.pull-right {
+    float: right;
+    display: inline;}
+
+.popover-header {
+    background-color: rgb(247, 247, 247);
+    display: block;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    border-radius: 5px 5px 0px 0px;
+    min-height: 25px;
+    padding: 5px 7px 5px 5px;
+}
+
+.popover-title{background-color:none;}
